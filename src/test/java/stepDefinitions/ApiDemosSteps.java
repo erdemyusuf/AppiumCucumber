@@ -24,8 +24,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Assert.assertTrue(isElementPresent(screens.mainScreen().mainScreenTitle));
     }
 
-    @And("kullanici API Demos butununa tiklar")
-    public void kullaniciAPIDemosButununaTiklar() {
+    @And("kullanici API Demos butununa tikladi")
+    public void kullaniciAPIDemosButununaTikladi() {
         tapOn(screens.mainScreen().apiDemosButton);
     }
 
@@ -34,8 +34,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Assert.assertTrue(isElementPresent(screens.apiDemosScreen().apiDemosTitle));
     }
 
-    @And("kullanici Preference butununa tiklar")
-    public void kullaniciPreferenceButununaTiklar() {
+    @And("kullanici Preference butununa tikladi")
+    public void kullaniciPreferenceButununaTikladi() {
         tapOn(screens.apiDemosScreen().preference);
     }
 
@@ -44,8 +44,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Assert.assertTrue(isElementPresent(screens.preferenceScreen().preferenceScreenTitle));
     }
 
-    @And("kullanici Preference dependencies tiklar")
-    public void kullaniciPreferenceDependenciesTiklar() {
+    @And("kullanici Preference dependencies tikladi")
+    public void kullaniciPreferenceDependenciesTikladi() {
         tapOn(screens.preferenceScreen().preferenceDependencies);
     }
 
