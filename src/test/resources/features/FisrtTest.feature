@@ -1,15 +1,15 @@
-Feature: API Demos test
+Feature: API Demos testi
 
   Scenario Outline: Text box data gonderme
     Given App yuklensin
-    And kullanici ana ekranda
-    And kullanici API Demos butununa tikladi
+    And kullanici ana ekraninda
+    And kullanici API Demos butununa tiklar
     Then kullanici API Demos ekraninda
-    And kullanici Preference butununa tikladi
+    And kullanici Preference butununa tiklar
     Then kullanici Preference ekraninda
-    And kullanici Preference dependencies tikladi
+    And kullanici Preference dependencies tiklar
     And kullanici WiFi check box secmis olacak
-    And kullanici WiFi Settings tikladi
+    And kullanici WiFi Settings tiklar
     Then WiFi setting popup geldi
     And kullanici "<text>" yazdi
     And kullanci ok butonuna tikladi

@@ -19,13 +19,13 @@ public class ApiDemosSteps extends ReusableMethods {
         Driver.getAppiumDriver();
     }
 
-    @And("kullanici ana ekranda")
-    public void kullaniciAnaEkranda() {
+    @And("kullanici ana ekraninda")
+    public void kullaniciAnaEkraninda() {
         Assert.assertTrue(isElementPresent(screens.mainScreen().mainScreenTitle));
     }
 
-    @And("kullanici API Demos butununa tikladi")
-    public void kullaniciAPIDemosButununaTikladi() {
+    @And("kullanici API Demos butununa tiklar")
+    public void kullaniciAPIDemosButununaTiklar() {
         tapOn(screens.mainScreen().apiDemosButton);
     }
 
@@ -34,8 +34,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Assert.assertTrue(isElementPresent(screens.apiDemosScreen().apiDemosTitle));
     }
 
-    @And("kullanici Preference butununa tikladi")
-    public void kullaniciPreferenceButununaTikladi() {
+    @And("kullanici Preference butununa tiklar")
+    public void kullaniciPreferenceButununaTiklar() {
         tapOn(screens.apiDemosScreen().preference);
     }
 
@@ -44,8 +44,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Assert.assertTrue(isElementPresent(screens.preferenceScreen().preferenceScreenTitle));
     }
 
-    @And("kullanici Preference dependencies tikladi")
-    public void kullaniciPreferenceDependenciesTikladi() {
+    @And("kullanici Preference dependencies tiklar")
+    public void kullaniciPreferenceDependenciesTiklar() {
         tapOn(screens.preferenceScreen().preferenceDependencies);
     }
 
@@ -56,8 +56,8 @@ public class ApiDemosSteps extends ReusableMethods {
         }
     }
 
-    @And("kullanici WiFi Settings tikladi")
-    public void kullaniciWiFiSettingsTikladi() {
+    @And("kullanici WiFi Settings tiklar")
+    public void kullaniciWiFiSettingsTiklar() {
         tapOn(screens.preferenceDependenciesScreen().wifiSettings);
     }
 
