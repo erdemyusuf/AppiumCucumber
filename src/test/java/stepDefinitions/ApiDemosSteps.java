@@ -19,8 +19,8 @@ public class ApiDemosSteps extends ReusableMethods {
         Driver.getAppiumDriver();
     }
 
-    @And("kullanici ana ekraninda")
-    public void kullaniciAnaEkraninda() {
+    @And("kullanici ana ekranda")
+    public void kullaniciAnaEkranda() {
         Assert.assertTrue(isElementPresent(screens.mainScreen().mainScreenTitle));
     }
 

@@ -1,8 +1,8 @@
 Feature: API Demos testi
-
+@first
   Scenario Outline: Text box data gonderme
     Given App yuklensin
-    And kullanici ana ekraninda
+    And kullanici ana ekranda
     And kullanici API Demos butununa tiklar
     Then kullanici API Demos ekraninda
     And kullanici Preference butununa tiklar

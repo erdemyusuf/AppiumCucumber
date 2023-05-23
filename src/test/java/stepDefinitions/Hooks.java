@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class Hooks {
     //private bcz i ll use it only in this class
-    private AppiumDriverLocalService appiumServer = AppiumDriverLocalService.buildDefaultService();
+    private  AppiumDriverLocalService appiumServer = AppiumDriverLocalService.buildDefaultService();
     final Runtime runtime = Runtime.getRuntime();
     @Before
     public void setUp(){
