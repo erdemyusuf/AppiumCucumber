@@ -91,7 +91,6 @@ public class ViewsSteps extends ReusableMethods {
         }while(list.size()==0);
 
         tapOn(screens.viewsScreen().switchesButton.get(0));
-
     }
 
     @And("kullanici {string} button tiklasin")
